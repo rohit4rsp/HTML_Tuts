@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rohit.css">
+    <title>FORMS</title>
+</head>
+
+<body>
+    <h2>this is Html forms tutorial</h2>
+
+    <form action="backend.php">
+
+        <!-- USING LABEL -->
+        <label for="name">Name:click here to enter</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+
+        <!-- using div and #INPUT -->
+        <div>
+            male: <input type="radio" name="myGender"> female: <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Hobby: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail" id="">
+        </div>
+
+        <br>
+        <div>
+            <input type="date" name="myDate" id="">
+        </div>
+        <br>
+        <div>
+            Ph.no: <input type="number" name="myNumber" id="">
+        </div>
+        <br>
+        <label for="car">Select State</label>
+        <div>
+            <select name="myCar" id="car">
+                <option value="sel">--select--</option>
+                <option value="goa">Goa</option>
+                <option value="ker">Kerela</option>
+                <option value="mah">Maharashtra</option>
+                <option value="bih">Bihar</option>
+            </select>
+            
+        </div>
+        <br>
+        <div>
+            About Yourself <br> <textarea name="myText" cols="85" rows="5">write here</textarea>
+        </div>
+        <br>
+        <div>
+            Are u eligible for college? <input type="checkbox" name="myEligibility" id="">
+            Are u Human? <input type="checkbox" name="myEligibility" id="" checked>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="submit now!">
+            <input type="reset" value="reset now!">
+        </div>
+
+
+    </form>
+</body>
+
+</html>
